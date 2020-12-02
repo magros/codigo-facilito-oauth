@@ -1,0 +1,33 @@
+{
+  "name": "magros/codigo-facilito-oauth",
+  "description": "Oauth service provider for codigo facilito",
+  "type": "library",
+  "require": {
+    "laravel/socialite": "^5.1"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^6.5"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marco",
+      "email": "marco@empleosti.com.mx"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Magros\\CodigoFacilitoOauth\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Magros\\CodigoFacilitoOauth\\CodigoFacilitoOauthProvider"
+      ],
+      "dont-discover": [
+        "*"
+      ]
+    }
+  }
+}
