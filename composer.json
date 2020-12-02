@@ -2,6 +2,7 @@
   "name": "magros/codigo-facilito-oauth",
   "description": "Oauth service provider for codigo facilito",
   "type": "library",
+  "minimum-stability": "stable",
   "require": {
     "laravel/socialite": "^5.1"
   },
