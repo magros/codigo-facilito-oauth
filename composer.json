@@ -4,7 +4,7 @@
   "type": "library",
   "minimum-stability": "stable",
   "require": {
-    "laravel/socialite": "^5.1"
+    "laravel/socialite": "4.*"
   },
   "require-dev": {
     "orchestra/testbench": "^6.5"
